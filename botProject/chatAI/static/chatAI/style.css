@@ -1,0 +1,139 @@
+
+/*
+#chatbot {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    width: 70%;
+    border-radius: 10px;
+    border: 1px solid gray;
+    padding: 10px;
+}
+
+.botText {
+    font-family: monospace;
+    font-size: 14px;
+    text-align: left;
+    line-height: 25px;
+    color: rgb(109,111,109);
+}
+
+#userInput {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    width: 70%;
+    text-align: center;
+}
+
+#textInput {
+    border: 3px solid #fff;
+    border-bottom: 3px solid #afafaf;
+    font-family: monospace;
+    font-size: 14px;
+    width: 60%;
+    color: rgb(213, 67, 41);
+    padding: 16px;
+}
+
+#buttonInput {
+    padding: 10px;
+    font-family: monospace;
+    font-size: 14px;
+    border: 3px solid #5b605c;
+    background-color: rgb(40, 48, 40);
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+h1 {
+    color: rgb(57, 72, 57);
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.userText {
+    text-align: right;
+    font-family: monospace;
+    font-size: 14px;
+    line-height: 25px;
+    color: rgb(109,111,109);
+}
+
+*/
+#chatbot {
+    margin: 50px auto;
+    width: 70%;
+    background-color: #f2f2f2;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    overflow-y: auto; /* Enable vertical scrollbar if needed */
+}
+
+.botText {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #fff;
+    background-color: #4caf50; /* Background color for bot messages */
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.userText {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #fff;
+    background-color: #5b605c; /* Background color for user messages */
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+#userInput {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#textInput {
+    border: none;
+    border-bottom: 2px solid #5b605c;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    width: 70%;
+    color: #333;
+    padding: 12px;
+    margin-right: 10px;
+    transition: border-bottom-color 0.3s ease;
+}
+
+#textInput:focus {
+    outline: none;
+    border-bottom-color: #afafaf;
+}
+
+#buttonInput {
+    padding: 12px 20px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    border: none;
+    background-color: #4caf50;
+    color: #fff;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#buttonInput:hover {
+    background-color: #45a049;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
